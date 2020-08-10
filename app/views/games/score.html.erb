@@ -1,0 +1,9 @@
+<h1>Games score</h1>
+<%if @included %>
+  <p>Congrats, you found a word that has the right letters inside!</p>
+<%end %>
+<%if @english_word %>
+  <p>Great and you found a word that actually exists in english!</p>
+<%else%>
+  <p>Unfortunatly, that is not an english word!</p>
+<%end %>
